@@ -1,0 +1,39 @@
+{
+  "name": "grunt-plugin-testes-stress",
+  "description": "The best Grunt plugin ever.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/ArikBartzadok/grunt-plugin-testes-stress",
+  "author": {
+    "name": "Diogo Ferreira dos Santos",
+    "email": "diogocraft.2@gmail.com",
+    "url": "https://diogodeveloper.netlify.app/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ArikBartzadok/grunt-plugin-testes-stress.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ArikBartzadok/grunt-plugin-testes-stress/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/ArikBartzadok/grunt-plugin-testes-stress/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.9.2",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt": "~0.4.5"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
